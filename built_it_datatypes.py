@@ -26,3 +26,21 @@ print(my_tuple, tuple([1,2,3]), tuple('saras'))
 my_range = list(range(10))
 range_step_two = list(range(1,10,2)) #start, stop, step
 print(my_range,range_step_two )
+
+#set
+my_set = {1,2,3,4}
+my_set_2 = set(range(4))
+print(my_set, my_set_2 )
+
+#dictionary (mapping data type)
+current_year = 2024
+birth_year = 2000
+my_dict = {'name' : 'Saraswati', 'age' : current_year-birth_year, 62 : "ID Phone"}
+
+print(my_dict)
+print(f'All keys are {my_dict.keys()}')
+print(f'All values are {my_dict.values()}')
+print(my_dict.items())
+
+for key, value in my_dict.items():
+  print(f'The key is {key} and the value will be {value}')
