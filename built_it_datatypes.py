@@ -3,8 +3,9 @@ a = 2
 b = 2.0
 c = 2 + 0j
 d = bool(1)
-
-for value in (a,b,c,d):
+my_biner = 0b101
+my_hexa = 0x5A1C
+for value in (a,b,c,d,my_biner,my_hexa):
   print(f"Data type of {value} is {type(value)}")
 
 #sequence
