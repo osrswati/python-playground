@@ -3,6 +3,7 @@ a = 10
 b = 3
 
 print(a/b, a//b, a%b, 10*3, 10**3)
+print(int(a/b))
 
 #assignments (assign operators)
 
