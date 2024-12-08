@@ -1,6 +1,4 @@
-# python-playground
-
-## Important Links for Learning References
+# Important Links for Learning References
 
 Here are some valuable resources to help with learning:
 
