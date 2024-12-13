@@ -13,11 +13,14 @@ print(nickname.lower()
       )
 
 #list
-mom_order = ['Banana', 'Papaya', 'Rice', 'Sugar']
+mom_order = ['Banana', 'Banana', 'Papaya', 'Rice', 'Sugar']
 list_num = [1,24,66,3,4,12,1]
 
 mom_order.append('Chitato')
 print(mom_order)
+
+mom_order[1] = 'Element 1'
+print(mom_order.index("Banana"))
 
 mom_order.insert(1,'Yogurt')
 print(mom_order)
