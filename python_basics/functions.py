@@ -54,3 +54,16 @@ def data_student(name, clas, **mark):
     print(index, value)
 
 print(data_student('Saraswati', 'Science Two', Math=90, English=100, Chemistry=99, Physics=85))
+
+
+#global variabels
+def sum_func(a,b):
+  global c
+  if type(a) == type(b):
+      c = a + b
+  else:
+    print('Datatypes are different, try again!')
+  
+sum_func(7,8)
+
+print(c)
