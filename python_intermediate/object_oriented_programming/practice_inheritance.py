@@ -13,6 +13,9 @@ class Polygon():
 
   def get_height(self):
     return self.__height
+  
+  def get_width_height(self):
+        return self.__width, self.__height  # Mengembalikan tuple
 
 #Child Class
 class Square(Polygon):
@@ -35,3 +38,4 @@ my_triangle = Triangle()
 my_triangle.set_value(8,10)
 
 print(my_triangle.area())
+print(my_triangle.get_width_height())
