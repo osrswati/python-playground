@@ -1,4 +1,6 @@
 class IceCream():
+  
+  max_scoops = 3 #if more than 3, set zero, this variable to avoid magic numbers
   # pass
   def __init__(self):
     print('Ice Cream is created!')
@@ -13,6 +15,9 @@ class IceCream():
     
   def add(self, num_scoop_add):
     self.scoops += num_scoop_add
+    if self.scoops > self.max_scoops:
+      self.scoops = 0
+      print('Too many scoops, dropped Ice Cream!')
 
 my_ice_cream = IceCream()
 # print(type(my_ice_cream))

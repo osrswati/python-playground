@@ -16,3 +16,5 @@ student_2.name = 'Jasika'
 student_2.age = 12
 print(student_2.name)
 print(student_2.talk())
+
+print(student_2.__dict__)
